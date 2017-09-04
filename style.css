@@ -1,0 +1,184 @@
+@font-face {
+    font-family: hfont;
+    src:url(porter-sans-inline-block.ttf);
+}
+
+html,body{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+h1 {
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: hfont;
+  font-size: 32px;
+  font-weight: lighter;
+  margin: 5 5 5 5;
+}
+
+
+p{
+  margin: 0px 0px 30px 5px;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 17.5px;
+}
+
+
+#div1 {
+  background-image: url(1.jpg);
+  padding: 0;
+  height: 700px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+
+#div2 {
+  background-image: url(10.jpg);
+  height: 700px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#div3 {
+  background-image: url(2.jpg);
+
+  height: 1000px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+#div4 {
+  background-image: url(3.jpeg);
+
+  height: 700px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+
+#menulogo {
+  width: 300px;
+  margin-top: 40px;
+  display: inline-block;
+}
+
+
+#logobox {
+  height: 700px;
+  background-image: url(logo.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  vertical-align: middle;
+}
+
+#mediabox{
+height: 630px;
+width: 700px;
+background-repeat: no-repeat;
+background-size: contain;
+margin-left: auto;
+margin-right: auto;
+}
+
+
+#menubox{
+height: 1000px;
+width: 500px;
+background-color: #323334;
+margin-left: auto;
+margin-right: auto;
+
+border-top-color: white;
+border-top-style: dotted;
+
+opacity: .9;
+}
+
+#menu {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 310px;
+  font-family: helvetica; /*ändra till något annat*/
+  color: white;
+}
+
+.title {
+  float: left;
+}
+
+.price {
+  float: right;
+}
+
+#aboutbox {
+    height: 500px;
+    width: 500px;
+    background: linear-gradient(to bottom, #323334 , transparent);
+    margin-left: auto;
+    margin-right: auto;
+    border-top-color: white;
+    border-top-style: dotted;
+
+    opacity: .98;
+}
+
+.video{
+  width: 700px;   /*w:500 h:290*/
+  height: 400px;
+  margin-top: 100px;
+  border: 0;
+}
+
+.logobottom {
+  width: 250px;
+  margin-top: 0;
+}
+
+embed{
+  width: 300px;
+}
+
+
+li {
+  text-align: center;
+  display: inline-block;
+}
+
+.navigation {
+    width: 1500px;
+    background-color: #323334;
+    color: white;
+    position: fixed;
+    z-index: 10000; /*ser till att menyn hamnar överst*/
+    opacity: .92;
+}
+
+a{
+  font-size: 25px;
+  color:white;
+  padding: 16px;
+  font-family: 'PT Sans', sans-serif;
+  font-variant: small-caps;
+}
+
+a:hover {
+    background-color: white;
+    color: #323334;
+}
